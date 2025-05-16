@@ -80,7 +80,7 @@
             position: relative;
             color: white;
             top: -40%;
- 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
          }
         .surname input{
             background: transparent;
