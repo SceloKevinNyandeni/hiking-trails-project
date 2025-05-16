@@ -1,0 +1,123 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+height: 100vh;
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('mountains.jpeg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+ .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 5%;
+}
+
+.navigation ul li{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+ }
+ 
+ .navigation ul li a{
+     text-decoration: none;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 500;
+     color: orange;
+ }
+
+
+    
+    .navigation h2{
+        position: relative;
+        left: 3%;
+        font-size: 20px;
+        color: WHITE;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        cursor: pointer;
+    }
+    
+    .navigation li a:hover{
+        color: orange;
+        transition: 0.2s;
+        transform: scale(1.1);
+        text-decoration: underline;
+    }
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 530px;
+    height: 580px;
+    margin: 40px auto;
+    margin-top: 5%;
+    backdrop-filter: blur(15px);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-page h3 {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    color: white;
+    font-size: 1em;
+    margin-top: 5%;
+    font-style: italic;
+}
+
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+            background: transparent;
+            color: white;
+            margin: 30px 0 ;
+            width: 310px;
+            padding: 15px;
+            cursor: pointer;
+            border: 0;
+            border-bottom: 2px solid white;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #ffffff;
+    font-style: italic;
+    opacity: 1;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: rgb(161, 106, 2);
+}
