@@ -98,7 +98,6 @@
             const surname = document.getElementById('Surname').value;
             if (selectedOption) {
                 alert('Booking confirmed for ' + name + ' ' + surname + ' at ' + selectedOption + ' with booking ID: ' + generateBookingID());
-                alert('please present this booking ID ' + generateBookingID() + ' at the trailhead');
                 document.getElementById('form').reset();
                 document.getElementById('btnConfirm').style.backgroundColor = "black";
             document.getElementById('btnSelect').style.backgroundColor = "hsl(29, 97%, 48%)";
